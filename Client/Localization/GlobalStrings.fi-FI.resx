@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddToWorkflow" xml:space="preserve">
+    <value>Lisää työjonoon</value>
+  </data>
+  <data name="AddTrolley" xml:space="preserve">
+    <value>Lisää vaunu</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Määrä</value>
+  </data>
+  <data name="CancelLoading" xml:space="preserve">
+    <value>Peruuta ripustus</value>
+  </data>
+  <data name="TrolleyNumber" xml:space="preserve">
+    <value>Vaunun nro</value>
+  </data>
+  <data name="ChooseProduct" xml:space="preserve">
+    <value>Valitse tuote</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Väri</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Kuva</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Ripusta</value>
+  </data>
+  <data name="LoadAmount" xml:space="preserve">
+    <value>Ripustusmäärä</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Ripustus</value>
+  </data>
+  <data name="MainWindowTitle" xml:space="preserve">
+    <value>Nipema Tuotannonohjaus</value>
+  </data>
+  <data name="OrderAmount" xml:space="preserve">
+    <value>Tilattu KPL</value>
+  </data>
+  <data name="OrderRemainingAmount" xml:space="preserve">
+    <value>Jäljellä KPL</value>
+  </data>
+  <data name="OrderTime" xml:space="preserve">
+    <value>Tilausaika</value>
+  </data>
+  <data name="Painting" xml:space="preserve">
+    <value>Maalaus</value>
+  </data>
+  <data name="ProductAdd" xml:space="preserve">
+    <value>Lisää tuote</value>
+  </data>
+  <data name="ProductDescription" xml:space="preserve">
+    <value>Tuotekuvaus</value>
+  </data>
+  <data name="ProductEdit" xml:space="preserve">
+    <value>Muokkaa tuotetta</value>
+  </data>
+  <data name="ProductionInstructions" xml:space="preserve">
+    <value>Käsittelyohjeet</value>
+  </data>
+  <data name="ProductNumber" xml:space="preserve">
+    <value>Tuotekoodi</value>
+  </data>
+  <data name="ProductRemove" xml:space="preserve">
+    <value>Poista tuote</value>
+  </data>
+  <data name="ProductsAndInstructions" xml:space="preserve">
+    <value>Tuotteet ja ohjeet</value>
+  </data>
+  <data name="ProductsAwaitingTreatmentHeader" xml:space="preserve">
+    <value>Käsittelyä odottavat tuotteet</value>
+  </data>
+  <data name="ProductsInTreatmentHeader" xml:space="preserve">
+    <value>Linjalla olevat tuotteet</value>
+  </data>
+  <data name="ProductsListAll" xml:space="preserve">
+    <value>Kaikki tuotteet</value>
+  </data>
+  <data name="RemoveTrolley" xml:space="preserve">
+    <value>Poista vaunu</value>
+  </data>
+  <data name="SelectLanguageOptionHeader" xml:space="preserve">
+    <value>Valitse ohjelman kieli</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Teksti</value>
+  </data>
+  <data name="Trolley" xml:space="preserve">
+    <value>Vaunu</value>
+  </data>
+  <data name="TrolleyDetails" xml:space="preserve">
+    <value>Vaunun tiedot</value>
+  </data>
+  <data name="TrolleyEstimatedArrival" xml:space="preserve">
+    <value>Saapumisaika (arvio)</value>
+  </data>
+  <data name="TrolleyLoadedTime" xml:space="preserve">
+    <value>Ripustusaika</value>
+  </data>
+  <data name="TrolleyStatus" xml:space="preserve">
+    <value>Vaunun tila</value>
+  </data>
+  <data name="TrolleyToBeLoaded" xml:space="preserve">
+    <value>Lastattava vaunu</value>
+  </data>
+  <data name="Unloading" xml:space="preserve">
+    <value>Purku</value>
+  </data>
+  <data name="WorkAssignments" xml:space="preserve">
+    <value>Toimeksiannot</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Työjono</value>
+  </data>
+  <data name="WorkflowAddTo" xml:space="preserve">
+    <value>Lisää työjonoon</value>
+  </data>
+  <data name="WorkflowRemoveFrom" xml:space="preserve">
+    <value>Poista työjonosta</value>
+  </data>
+  <data name="ProductAddTitle" xml:space="preserve">
+    <value>Lisää uusi tuote</value>
+  </data>
+  <data name="ProductEditTitle" xml:space="preserve">
+    <value>Muokkaa tuotetta</value>
+  </data>
+  <data name="SaveInstructions" xml:space="preserve">
+    <value>Tallenna ohjeet</value>
+  </data>
+  <data name="RealTimeView" xml:space="preserve">
+    <value>Tilanne</value>
+  </data>
+  <data name="ProductOvenTime" xml:space="preserve">
+    <value>Aika uunissa</value>
+  </data>
+  <data name="InstructionType1" xml:space="preserve">
+    <value>Ripustusohje</value>
+  </data>
+  <data name="InstructionType2" xml:space="preserve">
+    <value>Maalausohje</value>
+  </data>
+  <data name="InstructionType3" xml:space="preserve">
+    <value>Purkuohje</value>
+  </data>
+  <data name="EditInstructions" xml:space="preserve">
+    <value>Muokkaa ohjeita</value>
+  </data>
+  <data name="Test1_Header" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Paikka</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Tallenna</value>
+  </data>
+  <data name="LoadSuccessful" xml:space="preserve">
+    <value>Ripustaminen onnistui</value>
+  </data>
+  <data name="TabHeader1" xml:space="preserve">
+    <value>Ripustaminen &amp; ohjeet</value>
+  </data>
+  <data name="ExistingInstructions" xml:space="preserve">
+    <value>Tuotteet &amp; ohjeet</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Nimike</value>
+  </data>
+  <data name="ExcelExport" xml:space="preserve">
+    <value>Vie Exceliin</value>
+  </data>
+  <data name="ExcelImport" xml:space="preserve">
+    <value>Tuo Excelistä</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Suodata</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Ohjeet</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Tuotteet</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Oletko varma?</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="QuickLoad" xml:space="preserve">
+    <value>Ripusta</value>
+  </data>
+  <data name="SlowLoad" xml:space="preserve">
+    <value>Työjono</value>
+  </data>
+  <data name="AddOrEdit" xml:space="preserve">
+    <value>Lisää tai muokkaa tuotteita</value>
+  </data>
+  <data name="OpenLoadingInstructions" xml:space="preserve">
+    <value>Avaa ripustusohjenäkymä</value>
+  </data>
+  <data name="OpenPaintingInstructions" xml:space="preserve">
+    <value>Avaa maalausohjenäkymä</value>
+  </data>
+  <data name="OpenUnloadingInstructions" xml:space="preserve">
+    <value>Avaa purkuohjenäkymä</value>
+  </data>
+  <data name="AddProduct" xml:space="preserve">
+    <value>Lisää tuote</value>
+  </data>
+  <data name="ChooseScreen" xml:space="preserve">
+    <value>Valitse ruutu</value>
+  </data>
+  <data name="DeleteProduct" xml:space="preserve">
+    <value>Poista tuote</value>
+  </data>
+  <data name="EditProduct" xml:space="preserve">
+    <value>Muokkaa tuotetta</value>
+  </data>
+  <data name="Imported" xml:space="preserve">
+    <value>riviä luotu tietokantaan.</value>
+  </data>
+  <data name="NoProductNumber" xml:space="preserve">
+    <value>Nimikekoodia ei ole asetettu!</value>
+  </data>
+  <data name="SaveSuccessful" xml:space="preserve">
+    <value>Tallennus onnistui</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Selaa...</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Valitse</value>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Valitse tiedosto</value>
+  </data>
+  <data name="Columns" xml:space="preserve">
+    <value>Sarakkeet</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Muokkaa</value>
+  </data>
+  <data name="ErrorSaving" xml:space="preserve">
+    <value>Virhe tallennettaessa</value>
+  </data>
+  <data name="FileSaved" xml:space="preserve">
+    <value>Tiedosto tallennettu</value>
+  </data>
+  <data name="FirstRow" xml:space="preserve">
+    <value>Ensimmäinen rivi sisältää otsakkeen</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Tuo tietokantaan</value>
+  </data>
+  <data name="LisaaTyolistaan" xml:space="preserve">
+    <value>Lisää työlistaan</value>
+  </data>
+  <data name="MissingInformation" xml:space="preserve">
+    <value>Tietoja puuttuu, tarkista että olet täyttänyt kaikki kentät!</value>
+  </data>
+  <data name="ProductImage" xml:space="preserve">
+    <value>Tuotekuva</value>
+  </data>
+  <data name="SaveToExcel" xml:space="preserve">
+    <value>Tallenna tuotteet Excel-tiedostoon</value>
+  </data>
+  <data name="WorkflowRemovalConfirmation" xml:space="preserve">
+    <value>Haluatko varmasti poistaa työjonosta?</value>
+  </data>
+  <data name="Pesupaine" xml:space="preserve">
+    <value>Pesupaine</value>
+  </data>
+  <data name="ProductDeleted" xml:space="preserve">
+    <value>Tuote poistettu</value>
+  </data>
+  <data name="RemoveProduct" xml:space="preserve">
+    <value>Poista</value>
+  </data>
+  <data name="Uunitusaika" xml:space="preserve">
+    <value>Uunitusaika</value>
+  </data>
+  <data name="AddProductProperty" xml:space="preserve">
+    <value>Lisää tuoteominaisuus</value>
+  </data>
+  <data name="DefaultOvenTime" xml:space="preserve">
+    <value>Oletusuunitusaika (min)</value>
+  </data>
+  <data name="DefaultPressure" xml:space="preserve">
+    <value>Oletuspesupaine (bar)</value>
+  </data>
+  <data name="Defaults" xml:space="preserve">
+    <value>Oletusarvot</value>
+  </data>
+  <data name="UseOvenTime" xml:space="preserve">
+    <value>Näytä uunitusajan valinta</value>
+  </data>
+  <data name="UsePressure" xml:space="preserve">
+    <value>Näytä pesupaineen valinta</value>
+  </data>
+  <data name="FileInUse" xml:space="preserve">
+    <value>Tiedosto on toisen ohjelman käytössä, sulje ohjelma ja yritä uudestaan</value>
+  </data>
+  <data name="LoadTime" xml:space="preserve">
+    <value>Ripustusaika</value>
+  </data>
+  <data name="ConfirmProductRemoval" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa tuotteen?</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Kyllä</value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>Varoitus</value>
+  </data>
+  <data name="Kuvaus" xml:space="preserve">
+    <value>Kuvaus</value>
+  </data>
+  <data name="Paino" xml:space="preserve">
+    <value>Paino</value>
+  </data>
+  <data name="Varastopaikka" xml:space="preserve">
+    <value>Varastopaikka</value>
+  </data>
+  <data name="Väri" xml:space="preserve">
+    <value>Väri</value>
+  </data>
+  <data name="Tuotekuva" xml:space="preserve">
+    <value>Tuotekuva</value>
+  </data>
+  <data name="ConfirmLoading" xml:space="preserve">
+    <value>Ripustettava määrä on suurempi kuin tilauksessa jäljellä oleva määrä! Oletko varma, että haluat ripustaa?</value>
+  </data>
+  <data name="PesupaineBar" xml:space="preserve">
+    <value>Pesupaine (bar)</value>
+  </data>
+  <data name="RemoveFromWorkflow" xml:space="preserve">
+    <value>Poista työjonosta</value>
+  </data>
+  <data name="UunitusaikaMin" xml:space="preserve">
+    <value>Uunitusaika (min)</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Lopetuspäivämäärä</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="ShowHistoryFrom" xml:space="preserve">
+    <value>Näytä mittaustiedot ajalta</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Aloituspäivämäärä</value>
+  </data>
+  <data name="ValmistumisAika" xml:space="preserve">
+    <value>Valmistumisaika</value>
+  </data>
+  <data name="ButtonAddToWorkflow" xml:space="preserve">
+    <value>Lisää työjonoon</value>
+  </data>
+  <data name="ButtonEditProduct" xml:space="preserve">
+    <value>Muokkaa tuotetta</value>
+  </data>
+  <data name="ButtonRemoveProduct" xml:space="preserve">
+    <value>Poista tuote</value>
+  </data>
+  <data name="Clockwise" xml:space="preserve">
+    <value>Myötäpäivään</value>
+  </data>
+  <data name="ConfirmProductsRemoval" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa kaikki valitut tuotteet?</value>
+  </data>
+  <data name="CounterClockwise" xml:space="preserve">
+    <value>Vastapäivään</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Linjaston suunta</value>
+  </data>
+  <data name="InstructionPoints" xml:space="preserve">
+    <value>Ohjeiden näyttöpisteet</value>
+  </data>
+  <data name="LoadingPoint" xml:space="preserve">
+    <value>Ripustuksen alkupiste</value>
+  </data>
+  <data name="NoProductChosen" xml:space="preserve">
+    <value>Yhtään tuotetta ei ole valittu</value>
+  </data>
+  <data name="NoProductsChosen" xml:space="preserve">
+    <value>Yhtään tuotetta ei ole valittu</value>
+  </data>
+  <data name="PackingPoint" xml:space="preserve">
+    <value>Purkamisen alkupiste</value>
+  </data>
+  <data name="PaintingPoint" xml:space="preserve">
+    <value>Maalauksen alkupiste</value>
+  </data>
+  <data name="ProductsDeleted" xml:space="preserve">
+    <value>tuotetta poistettu</value>
+  </data>
+  <data name="SelectMultiple" xml:space="preserve">
+    <value>Valitse useampi tuote</value>
+  </data>
+  <data name="ConfirmHistoryDelete" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa kaikki tiedot valmistuneista tuotteista?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Vahvistus</value>
+  </data>
+  <data name="ConfirmCancelLoading" xml:space="preserve">
+    <value>Perutaanko ripustus?</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Poista</value>
+  </data>
+  <data name="DeleteHistory" xml:space="preserve">
+    <value>Poista historiatiedot</value>
+  </data>
+  <data name="DeleteHistoryInfo" xml:space="preserve">
+    <value>Tästä voit poistaa tietokannasta kaikki tiedot Historia-välilehdeltä tai työjonosta. Käytä toimintoa vain, kun olet varma, ettet halua säilyttää tietoja ja ne on esimerkiksi varmuuskopioitu Excel-tiedostoon.</value>
+  </data>
+  <data name="HistoryDeleted" xml:space="preserve">
+    <value>Historiatiedot poistettu</value>
+  </data>
+  <data name="AsetuksetKayttoOhje" xml:space="preserve">
+    <value>Asetukset-välilehdeltä voidaan valita ohjelman kieli. Lisäksi voidaan määrittää pesupaineen ja uunitusajan oletusarvot sekä se, näytetäänkö niitä ohjelmassa ollenkaan. Ohjeiden näyttöpisteet-kohdassa voidaan määrittää, mihin suuntaan linja kulkee ohjeiden näyttöpisteissä (ohjeet liikkuvat näytössä samaan suuntaan) sekä missä pisteissä näytöt sijaitsevat. Asetuksissa on myös kerättävien tietojen valinnat. Myös historiatiedot voidaan poistaa asetukset-välilehdeltä.</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Sulje</value>
+  </data>
+  <data name="HistoriaKayttoOhje" xml:space="preserve">
+    <value>Historia-välilehdeltä voidaan tarkastella linjalla aiemmin kulkeneita tuotteita. Aikajakso voidaan valita Näytä tiedot ajalta-kohdasta. Listalla näytetään määrän, tuotekoodin, ripustus- ja valmistumisajan lisäksi valitut mittaustiedot linjalta. Mittaustietoja voidaan muokata asetukset-välilehdeltä. Listan tiedot voidaan tallentaa myös Excel-tiedostoon, josta tietoja päästään tarkastelemaan eri tavoilla. Historiatiedot voidaan tarvittaessa poistaa asetukset-välilehdeltä.</value>
+  </data>
+  <data name="RipustusKayttoOhje" xml:space="preserve">
+    <value>Linjalla olevat tuotteet-listassa näkyvät tällä hetkellä linjaa kiertävät tuotteet. Tuotteen kierrettyä linjan se siirtyy valmiit-listaan, jota voidaan tarkastella Historia-välilehdeltä. Ripustuksen voi peruuttaa listasta.
+
+Ripusta-kohdasta tuote voidaan ripustaa linjalle. Tuotteesta tulee täyttää vaaditut tiedot: tuotekoodi, ripustettava määrä (samaan vaunuun), vaunun numero sekä pesupaine ja uunitusaika. Pesupaineen ja uunitusajan voi piilottaa asetuksista, mikäli tietoa ei linjalla tarvita, sekä määrittää oletusajan ja -paineen. Oletusarvoiksi kannattaa määrittää eniten käytetyt arvot; näitä pystyy kuitenkin myös ripustettaessa muokkaamaan.
+
+Ripustamisen alapuolella näkyy tuotteiden ohjeet, ja niitä pääsee myös tästä muokkaamaan. Muokkaaminen onnistuu myös Tuotteet &amp; ohjeet-välilehdeltä. Ohjeiden vieressä on napit ohjenäkymien avaamiseen. Napeista avautuu ruudun valinta-näkymä, josta voidaan valita ruutu, johon valittu näkymä avataan. Ohjenäkymä avataan sitä vastaavaan kohtaan linjalla. Ohjenäkymässä on vierekkäin kolme ohjetta, jotka sisältävät ohjekuvan, ohjetekstin sekä lisätietoja tuotteesta ruudun alareunassa (vaunu, määrä, paikka, tuotekoodi). Ohjeet siirtyvät ruudussa sitä mukaa, kun tuote siirtyy linjastolla.
+
+Ripusta-välilehden vieressä on työjono-välilehti, josta päästään työjononäkymään. Työjonolistassa näkyy kaikki työjonoon lisätyt tuotteet, kuinka monta niitä on tilattu ja kuinka monta jäljellä. Ripustaminen tapahtuu samaan tapaan kuin Ripusta-välilehdeltä. Tuotteen voi myös poistaa työjonosta. Tuotteiden lisäys työjonoon tapahtuu Tuotteet &amp; ohjeet-välilehden tuotelistasta tai Tuo Excelistä-napilla, josta avautuu samanlainen Excel-tuontinäkymä kuin tuotteilla. Työjonon voi myös suodattaa tuotekoodin tai työkoodin mukaan.</value>
+  </data>
+  <data name="TuotteetKayttoOhje" xml:space="preserve">
+    <value>Tuotteet-kohdassa on lista kaikista tietokannassa olevista tuotteista. Tuotetta klikkaamalla tulee alas näkymään tuotteen ohjeet sekä tuotekuva. Ohjeita voidaan muokata myös tätä kautta ohjekuvaa klikkaamalla. Tuotteella on myös kolme nappia: muokkaa, lisää työjonoon ja poista. Tuotteita voidaan hakea yläreunasta Suodata-laatikosta joko nimen tai tuotekoodin mukaan. Listasta voidaan valita ja poistaa useampi tuote samanaikaisesti laittamalla rastin ruutuun "Valitse useampi tuote". Poistaminen tapahtuu tuotteen poistonappia painamalla.
+
+Tuotteita voidaan lisätä tuotelistan oikealta puolelta. Lisää tuote-nappi avaa ikkunan, josta voidaan lisätä suoraan yksittäinen tuote. Tuotteita voidaan myös tuoda Excelistä. Tuo Excelistä-nappi avaa näkymän, josta valitaan Excel-tiedosto, jossa tuotavat tuotetiedot ovat. Ruutuun laitetaan rasti, mikäli Excel-tiedoston ensimmäinen rivi on otsikko. Tämän jälkeen valitaan, mikä tiedoston sarake sisältää minkäkin tiedon. Mikäli Excel-tiedoston sarake A on tyhjä ja vasta sarake B sisältää tuotekoodin, jätetään sarake A tyhjäksi ja valitaan Sarake B:n kohtaan tuotekoodi. Kaikkia tietoja ei tarvitse täyttää, esimerkiksi tuotekuvan voi jättää valitsematta. Nämä voidaan täyttää jälkikäteen ohjelman muokkaa-toiminnolla. Excel-tiedosto ei saa olla auki samanaikaisesti Excel-tuonnin kanssa.
+
+Tietokanta voidaan myös viedä Excel-tiedostoon. Tällä toiminnolla tietokannasta voidaan ottaa varmuuskopio, tai suurta määrää tuotteita voidaan muokata ja lisätä nopeammin. Vie Excel-napista avautuu näkymä, josta valitaan tiedoston haluttu kohdekansio. Tiedostoon tallennetaan kaikki tietokannassa olevat tuotetiedot.</value>
+  </data>
+  <data name="UsageInstructions" xml:space="preserve">
+    <value>Käyttöohje</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Vie Exceliin</value>
+  </data>
+  <data name="Maara" xml:space="preserve">
+    <value>Määrä</value>
+  </data>
+  <data name="Nimikekoodi" xml:space="preserve">
+    <value>Nimikekoodi</value>
+  </data>
+  <data name="RipustusAika" xml:space="preserve">
+    <value>Ripustusaika</value>
+  </data>
+  <data name="Direction1" xml:space="preserve">
+    <value>Ripustuspisteen suunta</value>
+  </data>
+  <data name="Direction2" xml:space="preserve">
+    <value>Maalauspisteen suunta</value>
+  </data>
+  <data name="Direction3" xml:space="preserve">
+    <value>Purkupisteen suunta</value>
+  </data>
+  <data name="LoadingEndPoint" xml:space="preserve">
+    <value>Ripustamisen loppupiste</value>
+  </data>
+  <data name="LoadingStartPoint" xml:space="preserve">
+    <value>Ripustamisen alkupiste</value>
+  </data>
+  <data name="Ltr" xml:space="preserve">
+    <value>Vasemmalta oikealle</value>
+  </data>
+  <data name="PackingEndPoint" xml:space="preserve">
+    <value>Purkamisen loppupiste</value>
+  </data>
+  <data name="PackingStartPoint" xml:space="preserve">
+    <value>Purkamisen alkupiste</value>
+  </data>
+  <data name="PaintingEndPoint" xml:space="preserve">
+    <value>Maalaamisen loppupiste</value>
+  </data>
+  <data name="PaintingStartPoint" xml:space="preserve">
+    <value>Maalaamisen alkupiste</value>
+  </data>
+  <data name="Rtl" xml:space="preserve">
+    <value>Oikealta vasemmalle</value>
+  </data>
+  <data name="TooltipZoom" xml:space="preserve">
+    <value>Näytä koko kuva</value>
+  </data>
+  <data name="Tyokoodi" xml:space="preserve">
+    <value>Työkoodi</value>
+  </data>
+  <data name="ExcelImportTyo" xml:space="preserve">
+    <value>Tuo työjono Excelistä</value>
+  </data>
+  <data name="VaunuId" xml:space="preserve">
+    <value>Vaunun numero</value>
+  </data>
+  <data name="Vari" xml:space="preserve">
+    <value>Väri</value>
+  </data>
+  <data name="ConfirmTyojonoDelete" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa kaikki työt työjonosta?</value>
+  </data>
+  <data name="DeleteTyojono" xml:space="preserve">
+    <value>Poista työjono</value>
+  </data>
+  <data name="TyojonoDeleted" xml:space="preserve">
+    <value>Työjono poistettu</value>
+  </data>
+  <data name="DryingTemp" xml:space="preserve">
+    <value>Vedenkuivaus lämpötila</value>
+  </data>
+  <data name="OvenTemp1" xml:space="preserve">
+    <value>Polttouunin lämpötila 1</value>
+  </data>
+  <data name="OvenTemp2" xml:space="preserve">
+    <value>Polttouunin lämpötila 2</value>
+  </data>
+  <data name="PhDip" xml:space="preserve">
+    <value>Altaan PH</value>
+  </data>
+  <data name="WashTemp" xml:space="preserve">
+    <value>Pesun lämpötila</value>
+  </data>
+  <data name="FillRate" xml:space="preserve">
+    <value>Täyttöaste</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Tyhjä</value>
+  </data>
+  <data name="ArrivalTime" xml:space="preserve">
+    <value>Saapumisaika</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Linjan arvioitu kesto (min)</value>
+  </data>
+  <data name="Maalauskierto" xml:space="preserve">
+    <value>Maalauskierto</value>
+  </data>
+  <data name="Maalausresepti" xml:space="preserve">
+    <value>Maalausresepti</value>
+  </data>
+  <data name="Pesupaine2" xml:space="preserve">
+    <value>Vaihtoehtoinen pesupaine</value>
+  </data>
+  <data name="Ripustusmäärä" xml:space="preserve">
+    <value>Ripustusmäärä</value>
+  </data>
+  <data name="Uunitusaika2" xml:space="preserve">
+    <value>Vaihtoehtoinen uunitusaika</value>
+  </data>
+</root>

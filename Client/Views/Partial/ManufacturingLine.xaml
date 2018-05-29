@@ -1,0 +1,70 @@
+﻿<ListView x:Class="Nipema.Tyonohjaus.Client.Views.Partial.ManufacturingLine"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+            ItemsSource="{Binding Path=Items}"
+            xmlns:lex="http://wpflocalizeextension.codeplex.com"
+            lex:ResxLocalizationProvider.DefaultAssembly="Nipema.Tyonohjaus.Client"
+            lex:ResxLocalizationProvider.DefaultDictionary="GlobalStrings"
+            lex:LocalizeDictionary.DesignCulture="fi"
+          Loaded="ListView_Loaded"
+             d:DesignHeight="300" d:DesignWidth="300" Margin="1" 
+          
+           Background="#ffffff">
+    <ListView.ItemContainerStyle>
+        <Style TargetType="ListViewItem">
+            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="PeruutaRipustus_Click" />
+        </Style>
+    </ListView.ItemContainerStyle>
+    <ListView.View>
+        <GridView x:Name="lista">
+            <GridView.Columns>
+                <GridViewColumn DisplayMemberBinding="{Binding Lokaatio}" >
+                    <GridViewColumn.Header>
+                        <GridViewColumnHeader x:Name="Lokaatio" Content="{lex:Loc Location}" Tag="Lokaatio" Click="GridViewColumnHeader_Click" />
+                    </GridViewColumn.Header>
+                </GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding VaunuId}" >
+                    <GridViewColumn.Header>
+                        <GridViewColumnHeader x:Name="VaunuId" Content="{lex:Loc TrolleyNumber}" Tag="VaunuId" Click="GridViewColumnHeader_Click" />
+                    </GridViewColumn.Header>
+                </GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding Maara}" >
+                    <GridViewColumn.Header>
+                        <GridViewColumnHeader Content="{lex:Loc Amount}" Tag="Maara" Click="GridViewColumnHeader_Click"/>
+                    </GridViewColumn.Header>
+                </GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding Pesupaine}"
+                                Width="{Binding PesupaineWidth, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    <GridViewColumn.Header>
+                        <GridViewColumnHeader Content="{lex:Loc Pesupaine}" Tag="Pesupaine" Click="GridViewColumnHeader_Click"/>
+                    </GridViewColumn.Header>
+                </GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding Uunitusaika}" 
+                                Width="{Binding UunitusAikaWidth, Mode=TwoWay,  UpdateSourceTrigger=PropertyChanged}" >
+                    <GridViewColumn.Header>
+                        <GridViewColumnHeader Content="{lex:Loc Uunitusaika}"/>
+                    </GridViewColumn.Header>
+                </GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding Vari}" >
+                    <GridViewColumn.Header>
+                        <GridViewColumnHeader Content="{lex:Loc Vari}" Tag="Vari" Click="GridViewColumnHeader_Click"/>
+                    </GridViewColumn.Header>
+                </GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding Nimikekoodi}" >
+                    <GridViewColumn.Header>
+                        <GridViewColumnHeader Content="{lex:Loc ProductNumber}" Tag="Nimikekoodi" Click="GridViewColumnHeader_Click"/>
+                    </GridViewColumn.Header>
+                </GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding Tyokoodi}" >
+                    <GridViewColumn.Header>
+                        <GridViewColumnHeader Content="{lex:Loc Tyokoodi}" Tag="Tyokoodi" Click="GridViewColumnHeader_Click"/>
+                    </GridViewColumn.Header>
+                </GridViewColumn>
+            </GridView.Columns>
+        </GridView>
+    </ListView.View>
+    
+</ListView>

@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nipema.Tyonohjaus.Client", "Client\Nipema.Tyonohjaus.Client.csproj", "{138446C8-2CB9-437C-82D1-F568F440AF82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nipema.Tyonohjaus.Services", "Services\Nipema.Tyonohjaus.Services.csproj", "{E77CF0C5-E2C7-49AA-B19D-81B72111253A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nipema.Tyonohjaus.Models", "Models\Nipema.Tyonohjaus.Models.csproj", "{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nipema.Tyonohjaus.EF", "DAL\Nipema.Tyonohjaus.EF.csproj", "{A096A3D1-DF4A-4657-8727-F341BA0D6F22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		TyonohjausDebug|Any CPU = TyonohjausDebug|Any CPU
+		TyonohjausDebug|x86 = TyonohjausDebug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.Debug|x86.Build.0 = Debug|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.Release|x86.ActiveCfg = Release|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.Release|x86.Build.0 = Release|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.TyonohjausDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.TyonohjausDebug|Any CPU.Build.0 = Debug|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.TyonohjausDebug|x86.ActiveCfg = Debug|Any CPU
+		{138446C8-2CB9-437C-82D1-F568F440AF82}.TyonohjausDebug|x86.Build.0 = Debug|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.Debug|x86.Build.0 = Debug|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.Release|x86.ActiveCfg = Release|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.Release|x86.Build.0 = Release|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.TyonohjausDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.TyonohjausDebug|Any CPU.Build.0 = Debug|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.TyonohjausDebug|x86.ActiveCfg = Debug|Any CPU
+		{E77CF0C5-E2C7-49AA-B19D-81B72111253A}.TyonohjausDebug|x86.Build.0 = Debug|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.Debug|x86.Build.0 = Debug|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.Release|x86.ActiveCfg = Release|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.Release|x86.Build.0 = Release|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.TyonohjausDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.TyonohjausDebug|Any CPU.Build.0 = Debug|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.TyonohjausDebug|x86.ActiveCfg = Debug|Any CPU
+		{49586AA5-3A7C-4F01-A0C9-2B2642455C6A}.TyonohjausDebug|x86.Build.0 = Debug|Any CPU
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.Debug|x86.ActiveCfg = Debug|x86
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.Debug|x86.Build.0 = Debug|x86
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.Release|x86.ActiveCfg = Release|x86
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.Release|x86.Build.0 = Release|x86
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.TyonohjausDebug|Any CPU.ActiveCfg = TyonohjausDebug|Any CPU
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.TyonohjausDebug|Any CPU.Build.0 = TyonohjausDebug|Any CPU
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.TyonohjausDebug|x86.ActiveCfg = TyonohjausDebug|x86
+		{A096A3D1-DF4A-4657-8727-F341BA0D6F22}.TyonohjausDebug|x86.Build.0 = TyonohjausDebug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46527F02-7CD9-4B7C-8931-896EFB2C2ED8}
+	EndGlobalSection
+EndGlobal
